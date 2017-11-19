@@ -1,0 +1,53 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  /*overflow-y:hidden;*/
+}
+.form{
+  margin-top:96px;
+  height:calc(100vh - 96px);
+  position:relative;
+}
+.question{
+  font-size:1.3rem;
+  margin-bottom:120px;
+}
+.next{
+  display:inline-block;
+  padding:12px 20px;
+  border:1px solid black;
+  border-radius:3px;
+  text-decoration:none;
+  color:black;
+}
+.next:visited{
+  text-decoration:none;
+  color:black;
+}
+.next:hover, .next:focus{
+  color:white;
+  background-color:black;
+}
+.progress-outer{
+  border:1px solid grey;
+  height:20px;
+  width:720px;
+  background-color:white;
+  padding:0px 0px;
+  border-radius:10px;
+}
+.progress-inner{
+  border-radius:10px;
+  background-color:black;
+  width:20px;
+  height:100%;
+  transition:width .7s;
+}
+.progress-container{
+  position:fixed;
+  top:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+  z-index:1000;
+  background-color:white;
+  width:100%;
+}

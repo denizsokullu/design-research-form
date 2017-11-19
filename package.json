@@ -1,0 +1,26 @@
+{
+  "name": "design-research-form",
+  "version": "1.0.0",
+  "description": "Lunar Gala 2018 Theme Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizsokullu/design-research-form.git"
+  },
+  "keywords": [
+    "no keyword"
+  ],
+  "author": "Deniz Sokullu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denizsokullu/design-research-form/issues"
+  },
+  "homepage": "https://github.com/denizsokullu/design-research-form#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

@@ -7,10 +7,24 @@
 		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 		crossorigin="anonymous">
   </script>
-	<script type="text/javascript" src="js/main.js"></script>
+
 	<link rel="stylesheet" href="css/prereqs.css">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyCpXM8CmIJmpsM2VG4A_uyQa1SQgmT04vE",
+	    authDomain: "design-research-form.firebaseapp.com",
+	    databaseURL: "https://design-research-form.firebaseio.com",
+	    projectId: "design-research-form",
+	    storageBucket: "design-research-form.appspot.com",
+	    messagingSenderId: "1097500205129"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+		<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -87,7 +101,10 @@
 		</div>
 		<div class="result" id="result">
 				<div class="question">
-							You are a really cool hero!
+
+							<img src="images/placeholder.png" alt="">
+							<br>
+							Stop being a couch potato and use your brain!
 				</div>
 		</div>
 	</div>

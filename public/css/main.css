@@ -78,3 +78,6 @@ input[type="radio"]:last-child{
 .container{
   padding-left:120px;
 }
+#result img{
+  height:500px;
+}

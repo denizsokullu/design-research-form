@@ -51,3 +51,30 @@ body{
   background-color:white;
   width:100%;
 }
+#q1 .question,
+#q2 .question,
+#q3 .question{
+  margin-bottom:40px;
+}
+.answers input[type="text"]{
+  margin:40px 0px;
+  margin-top:0px;
+  width:400px;
+  padding:12px;
+  border-radius:3px;
+  border:1px solid grey;
+}
+input[type="text"]:focus{
+  outline:none;
+  border-color:black;
+}
+input[type="radio"]{
+  width:30px;
+  margin-bottom:20px;
+}
+input[type="radio"]:last-child{
+  margin-bottom:40px;
+}
+.container{
+  padding-left:120px;
+}

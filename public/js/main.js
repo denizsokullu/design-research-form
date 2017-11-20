@@ -1,6 +1,6 @@
 counter = 0;
 length = 720;
-numOfQuestions = 8;
+numOfQuestions = 6;
 $(window).ready(function(){
   $('a[href^="#"]').click(function(event) {
       console.log("asd");
